@@ -1,0 +1,156 @@
+.containerHeader .profileImage {
+    width: 100%;
+}
+.containerHeader {
+    display: flex;
+    background-color: #4c956c;
+}
+
+.profileImage {
+    display: block;
+    max-width: 50%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.containerHeader {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Ajusta esto según necesites */
+}
+
+.profileImage {
+    width: 50%;
+    height: 100%;
+    object-fit: cover; /* Esto asegura que la imagen mantenga sus proporciones */
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #fcaf58;
+    text-shadow: #2c6e49 2px 2px 2px;
+    margin: 0;
+}
+.ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #fefee3;
+    text-shadow: #ffc9b9 0px 0px 2px;
+    cursor: pointer;
+}
+.ig:hover {
+    color: #ffc9b9;
+    text-shadow: #788bff 0px 0px 2px;
+}
+.boxPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffc9b9;
+    background-color: #4c956c;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffc9b9" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,213.3C672,224,768,192,864,154.7C960,117,1056,75,1152,90.7C1248,107,1344,181,1392,218.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>');
+    background-size: cover;
+    width: 50%;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffc9b9;
+    padding: 20px;
+}
+.buttonAbout {
+    background-color: #ffc9b9;
+    color: #4c956c;
+    border: 1.5px solid #2c6e49;
+    box-shadow: 2px 2px 2px #2c6e49;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    list-style: none;
+    margin: 20px;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttonList {
+    background-color: #788bff;
+    color: #ffc9b9;
+    border: 1.5px solid #2c6e49;
+    box-shadow: 2px 2px 2px #2c6e49;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    list-style: none;
+    margin: 20px;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttonContact {
+    background-color: #4c956c;
+    color: #ffc9b9;
+    border: 1.5px solid #2c6e49;
+    box-shadow: 2px 2px 2px #2c6e49;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    list-style: none;
+    margin: 20px;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.buttonAbout:hover,
+.buttonList:hover,
+.buttonContact:hover {
+    background-color: #fefee3;
+    border: 1.5px solid #2c6e49;
+    box-shadow: 2px 2px 8px #545454;
+    color: #4c956c;
+    animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}

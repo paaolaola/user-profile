@@ -1,0 +1,36 @@
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefee3;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%234c956c" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,213.3C672,224,768,192,864,154.7C960,117,1056,75,1152,90.7C1248,107,1344,181,1392,218.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>');
+    background-size: cover;
+    height: 100vh;
+}
+
+.info {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #fcaf58;
+    padding-top: 7rem;
+    width: 70%;
+    text-shadow: #545454 2px 2px 2px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    word-spacing: 8px;
+}
+.fadeIn {
+    opacity: 1;
+}
+
+.circleBlue {
+    background-color: #ffc9b9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(-200%, -40%);
+}
